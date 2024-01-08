@@ -19,3 +19,29 @@ body {
     padding: 80px 300px 180px 300px;
 
 }
+.section-items{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-items-off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 48px;
+
+}
+
+.text-holiday {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.text-cataroies {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    gap: 16px;
+}

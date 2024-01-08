@@ -57,6 +57,7 @@ body {
     border-radius: 15px;
     margin: auto;
     display: flex;
+    margin-top: 100px;
 }
 
 .text-party {
@@ -90,11 +91,18 @@ body {
 
 .place-section {
     background-color: #FFE9E9;
+    background: linear-gradient(180deg,rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
+    margin: 100px 180px;
+    border-radius: 15px;
+    width: 1320px;
+    height: 480;
+    margin-top: 100px;
 }
 
 .text-items-place {
     padding: 100px 180px 200px 180px;
+    font-size: 22px;
 
 }
 
@@ -103,7 +111,14 @@ body {
     font-size: 32px;
     font-weight: 600;
 }
-.btn-primary{
+
+.btn-primary {
     background: #F00;
     color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px;
+    text-align: center;
+    font-size: 20px;
 }

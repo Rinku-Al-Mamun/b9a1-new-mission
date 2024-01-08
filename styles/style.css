@@ -122,3 +122,9 @@ body {
     text-align: center;
     font-size: 20px;
 }
+/* best offer stle section  */
+
+.happy{
+    display: flex;
+    align-items: center;
+}

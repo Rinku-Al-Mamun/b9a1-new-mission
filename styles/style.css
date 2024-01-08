@@ -19,7 +19,8 @@ body {
     padding: 80px 300px 180px 300px;
 
 }
-.section-items{
+
+.section-items {
     text-align: center;
     margin-top: 50px;
 }
@@ -36,7 +37,7 @@ body {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
 
 .text-cataroies {
@@ -44,4 +45,40 @@ body {
     font-size: 48px;
     font-weight: 700;
     gap: 16px;
+}
+
+/* section bg  */
+.welcome-main {
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+}
+
+.text-party {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    padding: 126px 250px 5px 126px;
+
+}
+
+.text-dolor {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 126px ;
+}
+.join-btn{
+    margin: 20px 126px 140px 150px;
+    
+}
+.welcome-img{
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 }

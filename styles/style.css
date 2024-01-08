@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .header {
@@ -49,7 +50,7 @@ body {
 
 /* section bg  */
 .welcome-main {
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -70,15 +71,39 @@ body {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
-    margin: 0 126px ;
+    margin: 0 126px;
 }
-.join-btn{
+
+.join-btn {
     margin: 20px 126px 140px 150px;
-    
+
 }
-.welcome-img{
+
+.welcome-img {
     padding-right: 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+
+}
+
+/* place-section  */
+
+.place-section {
+    background-color: #FFE9E9;
+    text-align: center;
+}
+
+.text-items-place {
+    padding: 100px 180px 200px 180px;
+
+}
+
+.text-primary {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-primary{
+    background: #F00;
+    color: white;
 }

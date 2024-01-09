@@ -189,7 +189,25 @@ body {
 /* holiday section styles  */
 .holiday {
     text-align: center;
+    margin-top: 200px;
+}
+
+.what {
     margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.holi {
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.text-holi {
+    color: #666666;
+
 }
 
 .holiday-pic {
@@ -198,13 +216,26 @@ body {
     background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    border-radius: 16px;
+
+}
+.discount {
+    margin-right: 80px;
+
+    
+}
+
+.girl {
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 220px;
+    
+    border-radius: 16px 16px 16px 16px;
 
 }
 
-.holiday-gif {
-    background: linear-gradient();
-
-}
+.holiday-gif {}
 
 /* section Awesome Portfolio  */
 .best {
@@ -245,7 +276,11 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-.text-subscribe{
+.mail-pic{
+    padding-top: 80px;
+}
+
+.text-subscribe {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
@@ -262,9 +297,11 @@ body {
 
     margin-bottom: 100px;
 }
-.box-text{
+
+.box-text {
     margin-right: 0;
 }
+
 input[type="text"] {
     background: #FFF;
     width: 640px;
@@ -277,7 +314,7 @@ input[type="text"] {
     border-top-left-radius: 50px;
 }
 
-.box-btn{
+.box-btn {
     margin-left: 0;
     margin-bottom: 100px;
 }
@@ -302,34 +339,42 @@ input[type="button"] {
     background: #070211;
     color: #FFF;
 }
-.bb{
+
+.bb {
     background: #2C2835;
     width: 1380px;
 }
-.contact{
+
+.contact {
     display: flex;
 }
-.contact-text{
+
+.contact-text {
     margin: 120px 900px 40px 140px;
 }
-.contact-pic{
-   margin-top: 120px;
-   margin-right: 180px;
-   
-}
-.contact-icon{
-    text-align: center;
-    padding: 40px 280px 40px 400px;
-    
+
+.contact-pic {
+    margin-top: 120px;
+    margin-right: 180px;
 
 }
-.contact-lasttext{
+
+.contact-icon {
+    text-align: center;
+    padding: 40px 280px 40px 400px;
+
+
+}
+
+.contact-lasttext {
     display: flex;
 }
-.alltext{
+
+.alltext {
     margin: 20px 900px 40px 140px;
 }
-.unsubscribe{
+
+.unsubscribe {
     margin-top: 40px;
     color: #FFF;
     background: #070211;

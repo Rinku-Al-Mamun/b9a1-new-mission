@@ -2,10 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-.main-items{
+
+.main-items {
     margin: 100px 180px 100px 180px;
     border-radius: 15px;
-    
+
 }
 
 .header {
@@ -96,7 +97,7 @@ body {
 
 .place-section {
     background-color: #FFE9E9;
-    background: linear-gradient(180deg,rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     border-radius: 16px;
     width: 1320px;
@@ -126,27 +127,32 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
 /* best offer stle section  */
 
-.happy{
+.happy {
     display: flex;
     align-items: center;
     margin-top: 100px;
-    
+
 }
-.offer-content{
+
+.offer-content {
     padding: 0 25px;
 }
-.comming-soon{
+
+.comming-soon {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
-.text-dolorsit{
+
+.text-dolorsit {
     color: #666666;
     margin-right: 50%;
 }
-.ellipse-pic{
+
+.ellipse-pic {
     position: absolute;
     border: #F00;
     border-width: 15px;
@@ -160,18 +166,41 @@ body {
     margin-left: 25%;
 
 }
-.group-happy{
+
+.group-happy {
     margin: auto;
 }
-.year{
+
+.year {
     font-size: 48px;
     font-weight: 700;
 }
-.text-sit{
+
+.text-sit {
     color: #666666;
 
 }
-.group-pic{
+
+.group-pic {
     margin-bottom: 0%;
-    
+
+}
+
+/* holiday section styles  */
+.holiday {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.holiday-pic {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.holiday-gif {
+    background: linear-gradient();
 }

@@ -168,7 +168,8 @@ body {
 }
 
 .group-happy {
-    margin: auto;
+    padding: auto;
+    
 }
 
 .year {
@@ -178,13 +179,11 @@ body {
 
 .text-sit {
     color: #666666;
+    font-weight: 276;
 
 }
 
-.group-pic {
-    margin-bottom: 0%;
 
-}
 
 /* holiday section styles  */
 .holiday {
@@ -217,25 +216,27 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     border-radius: 16px;
+    margin: 50px 10px;
+    
 
 }
-.discount {
-    margin-right: 80px;
 
-    
+#discount {
+    padding-top: 100px;
+    padding-right: 200px;
 }
 
 .girl {
     background-image: url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 220px;
-    
-    border-radius: 16px 16px 16px 16px;
+    margin-bottom: 100px;
+    width: 429px;
+    height: 445px;
+    border-radius: 16px 16px 0px 0px;
 
 }
 
-.holiday-gif {}
 
 /* section Awesome Portfolio  */
 .best {
@@ -252,10 +253,6 @@ body {
     margin-top: 0%;
     margin-bottom: 0%;
 
-}
-
-.sit {
-    margin-top: 0%;
 }
 
 .portfolio-pic,
@@ -276,7 +273,8 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-.mail-pic{
+
+.mail-pic {
     padding-top: 80px;
 }
 

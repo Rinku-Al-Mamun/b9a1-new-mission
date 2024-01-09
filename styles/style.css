@@ -2,6 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+.main-items{
+    margin: 100px 180px 100px 180px;
+    border-radius: 15px;
+    
+}
 
 .header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/Banner\ Image.png');
@@ -93,8 +98,7 @@ body {
     background-color: #FFE9E9;
     background: linear-gradient(180deg,rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-    margin: 100px 180px;
-    border-radius: 15px;
+    border-radius: 16px;
     width: 1320px;
     height: 480;
     margin-top: 100px;
@@ -127,4 +131,47 @@ body {
 .happy{
     display: flex;
     align-items: center;
+    margin-top: 100px;
+    
+}
+.offer-content{
+    padding: 0 25px;
+}
+.comming-soon{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.text-dolorsit{
+    color: #666666;
+    margin-right: 50%;
+}
+.ellipse-pic{
+    position: absolute;
+    border: #F00;
+    border-width: 15px;
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url('../resources/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 25%;
+
+}
+.group-happy{
+    margin: auto;
+}
+.year{
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-sit{
+    color: #666666;
+
+}
+.group-pic{
+    margin-bottom: 0%;
+    
 }
